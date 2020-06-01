@@ -30,4 +30,4 @@ jobs:
     - name: installing-surge
       run:  npm install -g surge
     - name: deploying-using-surge
-      run: surge ./ bootcamp1.surge.sh --token${{secrets.SURGE_TOKEN}}
+      run: surge ./ bootcamp2.surge.sh --token${{secrets.SURGE_TOKEN}}
